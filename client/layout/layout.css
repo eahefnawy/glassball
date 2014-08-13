@@ -95,7 +95,7 @@ h2 {
 #formContainer {
 	width: 825px;
 	height: 137px;
-	margin: 0 auto;
+	margin: auto;
 	overflow: hidden;
 }
 
@@ -134,4 +134,47 @@ h2 {
 	height: 46px;
 	float: left;
 	border: solid 5px black;
+}
+
+input {
+	width: 222px;
+	height: 38px;
+	border: none;
+	outline: none;
+	padding: 4px;
+	padding-top: 2px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.signInButton {
+	background-color: black;
+	width: 240px;
+	height: 56px;
+	margin: 25px auto;
+	overflow: hidden;
+
+}
+
+.buttonText {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	float: left;
+	position: relative;
+	top: 7px;
+	left: 25px;
+}
+
+.arrow {
+	background: url(sprites.png) no-repeat;
+	background-position: -205px -85px ;
+	width: 26px;
+	height: 30px;
+	float: right;
+	position: relative;
+	top: 13px;
+	right: 20px;
 }
