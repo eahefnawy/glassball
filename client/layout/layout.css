@@ -58,6 +58,7 @@ h2 {
 	width: 295px;
 	height: 60px;
 	overflow: hidden;
+	margin-bottom: 25px;
 }
 
 .signUp, .signIn {
@@ -90,4 +91,19 @@ h2 {
 
 .active span {
 	color: white;
+}
+
+#formContainer {
+	width: 825px;
+	height: 137px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.textField {
+	width: 400px;
+	height: 56px;
+	float: left;
+	margin-bottom: 25px;
+	overflow: hidden;
 }
