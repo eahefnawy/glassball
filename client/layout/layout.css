@@ -64,7 +64,7 @@ h3 {
 p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
-	font-weight: 700;
+	font-weight: 100;
 	text-align: center;
 	color: black;
 }
@@ -84,6 +84,7 @@ a:hover {
 	height: 60px;
 	overflow: hidden;
 	margin-bottom: 25px;
+	margin-top: 130px;
 }
 
 .signUp, .signIn {
@@ -211,6 +212,7 @@ h2#footer {
 	text-align: center;
 	color: black;
 	margin-bottom: 50px;
+	margin-top: 130px;
 }
 
 h2#footer a {
@@ -257,4 +259,26 @@ h2#website {
 
 #websiteGhostContainer::before { 
 content:"";
+}
+
+textarea {
+	display: block;
+	width: 900px;
+	height: 400px;
+	border: solid 5px black;
+	margin: 0 auto;
+	resize: none;
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.sendMessageButton {
+	background-color: black;
+	width: 360px;
+	height: 56px;
+	margin: 25px auto;
+	overflow: hidden;
+
 }
