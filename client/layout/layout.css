@@ -1,0 +1,34 @@
+.arrow, .copy, .glassball, .heart{
+	background: url(sprites.png) no-repeat;
+}
+
+.arrow{
+	background-position: -205px -85px ;
+	width: 26px;
+	height: 30px;
+}
+
+.copy{
+	background-position: -205px -135px ;
+	width: 35px;
+	height: 35px;
+}
+
+.glassball{
+	background-position: 0 0;
+	width: 186px;
+	height: 200px;
+}
+
+.heart{
+	background-position: -205px 0;
+	width: 40px;
+	height: 40px;
+}
+
+header {
+	background: url(sprites.png) no-repeat;
+	background-position: 0 0;
+	width: 186px;
+	height: 200px;
+}
