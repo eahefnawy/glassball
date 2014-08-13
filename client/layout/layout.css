@@ -26,9 +26,10 @@
 	height: 40px;
 }
 
-header {
+#glassball {
 	background: url(sprites.png) no-repeat;
 	background-position: 0 0;
 	width: 186px;
 	height: 200px;
+	margin: 0 auto;
 }
