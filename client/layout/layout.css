@@ -61,6 +61,14 @@ h3 {
 	color: black;
 }
 
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	color: black;
+}
+
 a {
 	color: black;
 	text-decoration: none;
@@ -223,4 +231,30 @@ h2#footer span {
 	height: 40px;
 	position: relative;
 	top: 6px;
+}
+
+h2#website {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	margin: 0;
+	position: relative;
+	bottom: 19px;
+}
+
+#websiteContainer {
+	background-color: black;
+	padding: 20px;
+	display: inline-block;
+	height: 20px;
+}
+
+#websiteGhostContainer {
+	text-align: center;
+}
+
+#websiteGhostContainer::before { 
+content:"";
 }

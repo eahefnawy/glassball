@@ -3,4 +3,10 @@ Router.map(function () {
     path: '/',
     layoutTemplate: 'layout'
   });
+
+  this.route('dashboard', {
+    path: '/dashboard',
+    layoutTemplate: 'layout'
+  });
+
 });
