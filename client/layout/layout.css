@@ -73,7 +73,7 @@ h2 {
 	border-left: 0 solid black;
 }
 
-.signUp span, .signIn span {
+.signUp div, .signIn div {
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 	font-weight: 700;
@@ -81,7 +81,6 @@ h2 {
 	color: black;
 	position: relative;
 	top: 2px;
-	left: 18px;
 
 }
 
@@ -89,7 +88,7 @@ h2 {
 	background-color: black;
 }
 
-.active span {
+.active div {
 	color: white;
 }
 
@@ -119,12 +118,14 @@ h2 {
 	float: left;
 }
 
-.label span {
+.label div {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	text-align: center;
 	color: white;
+	position: relative;
+	top: 13px;
 
 }
 
