@@ -107,3 +107,30 @@ h2 {
 	margin-bottom: 25px;
 	overflow: hidden;
 }
+
+.textField:nth-child(even) {
+	margin-left: 25px;
+}
+
+.label {
+	width: 160px;
+	height: 56px;
+	background-color: black;
+	float: left;
+}
+
+.label span {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+
+}
+
+.input {
+	width: 230px;
+	height: 46px;
+	float: left;
+	border: solid 5px black;
+}
